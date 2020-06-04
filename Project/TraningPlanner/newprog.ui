@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewProg</class>
+ <widget class="QDialog" name="NewProg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>456</width>
+    <height>215</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Application form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/res/Icons/x-home-main-extensions-bg-white.jpg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Bitstream Charter</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #353b48;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Заполните анкету:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>Введите свой nickname(имя):</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QComboBox" name="comboBoxGend">
+         <property name="font">
+          <font>
+           <family>Bitstream Charter</family>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+	background-color: rgb(209, 216, 224);
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 6em;
+}
+</string>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>Пол</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>МУЖ.</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ЖЕН.</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxAge">
+         <property name="font">
+          <font>
+           <family>Bitstream Charter</family>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="statusTip">
+          <string/>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+	background-color: rgb(209, 216, 224);
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 6em;
+}
+</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Возраст</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxWei">
+         <property name="font">
+          <font>
+           <family>Bitstream Charter</family>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+	background-color: rgb(209, 216, 224);
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 6em;
+}
+</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Вес (кг)</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxHei">
+         <property name="font">
+          <font>
+           <family>Bitstream Charter</family>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+	background-color: rgb(209, 216, 224);
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 6em;
+}
+</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Рост (см)</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxCountTrn">
+       <property name="font">
+        <font>
+         <family>Bitstream Charter</family>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+	background-color: rgb(209, 216, 224);
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 5em;
+}
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Количество тренировок в неделю</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxDiff">
+       <property name="font">
+        <font>
+         <family>Bitstream Charter</family>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+	background-color: rgb(209, 216, 224);
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 5em;
+}
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Уровень тренировки</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Легко</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Нормально</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Сложно</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Очень сложно</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> QPushButton {
+	border-style: outset;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: #636e72;
+	min-width: 10em;
+	font: bold 14px;
+	padding: 6px;
+ }
+QPushButton#pushButton:pressed {
+	background-color: rgb(92, 53, 102);
+    border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>Выйти</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>28</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Ready">
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> QPushButton {
+	border-style: outset;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: #636e72;
+	min-width: 10em;
+	font: bold 14px;
+	padding: 6px;
+ }
+QPushButton#Ready:pressed {
+	background-color: rgb(92, 53, 102);
+    border-style: inset;
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

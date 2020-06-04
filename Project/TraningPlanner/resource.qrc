@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>Icons/add-button.png</file>
+        <file>Icons/power-circular-button.png</file>
+        <file>Icons/folder.png</file>
+        <file>Icons/power-off.png</file>
+        <file>Icons/download.png</file>
+        <file>Icons/home-icon-silhouette.png</file>
+        <file>Icons/lane.png</file>
+        <file>Icons/later.png</file>
+        <file>Icons/settings2.png</file>
+        <file>Icons/duplicate.png</file>
+        <file>Icons/paste.png</file>
+        <file>Icons/scissors.png</file>
+        <file>Icons/save as.png</file>
+        <file>Icons/muscle.png</file>
+        <file>Icons/weakcolor.png</file>
+        <file>Icons/next.png</file>
+        <file>Icons/arrow-pointing-to-right.png</file>
+        <file>Icons/right.png</file>
+        <file>Icons/right-arrow.png</file>
+        <file>Icons/x-home-main-extensions-bg-white.jpg</file>
+        <file>Icons/heartbeat.png</file>
+        <file>Icons/bumpy-light-blue-plastic-texture.jpg</file>
+        <file>Icons/images.jpeg</file>
+        <file>Icons/colored_vintage_paper_texture_02_blue.jpg</file>
+        <file>Icons/pexels-photo-242236.jpeg</file>
+        <file>Icons/plus.png</file>
+    </qresource>
+</RCC>
